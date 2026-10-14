@@ -16,8 +16,9 @@ links_head = re.sub(r'<meta property="og:.*?>\n|<meta name="twitter:.*?>\n', "",
 top = idx[idx.index("<!-- ============ HEADER ============ -->"):idx.index("<main>")]
 f0 = idx.index("<!-- ============ FOOTER ============ -->")
 foot = idx[f0:idx.index('<a class="wa-float', f0)]
-cola_modal = idx[idx.index('<a class="wa-float', f0):idx.index('<script src="./main.js"')]
+cola_modal = idx[idx.index('<a class="wa-float', f0):idx.index('<script src="./main.js')]
 cola = re.sub(r'<div class="modal".*?</div>\s*</div>\s*', "", cola_modal, flags=re.S)  # páginas sin formulario: sin modal
+JS_TAG = re.search(r'<script src="\./main\.js[^"]*"></script>', idx).group(0)  # con el ?v= del index (rompe la caché)
 
 def interna(s):
     s = re.sub(r'href="#(?!")', 'href="./index.html#', s)
@@ -116,7 +117,7 @@ def page(name, title, desc, body, schema="", modal=False):
     html = (head_tpl + f'<title>{title}</title>\n<meta name="description" content="{desc}">\n'
             + '<meta name="theme-color" content="#0E0E0D">\n<link rel="icon" type="image/png" href="./favicon.png">\n<link rel="apple-touch-icon" href="./favicon.png">\n'
             + links_head + schema + "</head>\n<body>\n\n" + top + "<main>\n" + body + "\n\n</main>\n\n" + foot
-            + (cola_modal if modal else cola) + '<script src="./main.js"></script>\n</body>\n</html>\n')
+            + (cola_modal if modal else cola) + JS_TAG + '\n</body>\n</html>\n')
     (D / name).write_text(html, encoding="utf8", newline="\n"); print("ok", name)
 
 # ---------- áreas
@@ -310,7 +311,7 @@ if "/* ---------- páginas internas" not in c:
   .servs-head{position:static}
   .perfil-foto{width:min(100%,340px);margin:0 auto}
   .otras-4{grid-template-columns:repeat(2,1fr)}
-  .cta-y-in{flex-direction:column;text-align:center}
+  .cta-y-in{flex-direction:column;gap:1.1rem;text-align:center}
   .cta-y-btns{justify-content:center}
 }
 @media (max-width:768px){

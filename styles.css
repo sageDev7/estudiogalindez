@@ -498,7 +498,7 @@ body.nav-open .mnav-ov{opacity:1;visibility:visible}
   .servs-head{position:static}
   .perfil-foto{width:min(100%,340px);margin:0 auto}
   .otras-4{grid-template-columns:repeat(2,1fr)}
-  .cta-y-in{flex-direction:column;text-align:center}
+  .cta-y-in{flex-direction:column;gap:1.1rem;text-align:center}
   .cta-y-btns{justify-content:center;justify-items:center}
 }
 @media (max-width:768px){
