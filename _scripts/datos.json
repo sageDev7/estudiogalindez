@@ -1,0 +1,13 @@
+{
+  "sitio": "Estudio Jurídico Galíndez",
+  "titulo_corto": "Estudio Jurídico Galíndez",
+  "responsable": "el Dr. Darío Galíndez, titular del Estudio Jurídico Galíndez",
+  "domicilio": "Av. Corrientes 1441, Ciudad Autónoma de Buenos Aires",
+  "email": "drdariogalindez@hotmail.com",
+  "telefono": "011 4054-1945",
+  "persona": "nosotros",
+  "formulario": true,
+  "btn": "btn-dark",
+  "theme_color": "#0E0E0D",
+  "css": {"fondo": "var(--bg)", "fondo_hero": "var(--bg-3)", "texto_hero": "var(--head)", "acento": "var(--y)", "muted": "var(--muted)", "titulos": "var(--f-head)"}
+}

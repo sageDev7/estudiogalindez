@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estudio Jurídico Galíndez | Abogados en CABA y Provincia de Buenos Aires</title>
+<link rel="icon" type="image/png" href="./favicon.png">
+<link rel="apple-touch-icon" href="./favicon.png">
+<meta name="description" content="Estudio Jurídico Galíndez: derecho laboral, civil y familia, societario y penal. Atención personal y reservada en Av. Corrientes 1441, CABA, y Provincia de Buenos Aires.">
+<meta name="theme-color" content="#FDD74B">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Estudio Jurídico Galíndez">
+<meta property="og:title" content="Estudio Jurídico Galíndez | Abogados en CABA y Provincia de Buenos Aires">
+<meta property="og:description" content="Estudio Jurídico Galíndez: derecho laboral, civil y familia, societario y penal. Atención personal y reservada en Av. Corrientes 1441, CABA, y Provincia de Buenos Aires.">
+<meta property="og:image" content="https://i.imgur.com/PXEqbVb.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/PXEqbVb.png">
+<meta name="twitter:title" content="Estudio Jurídico Galíndez | Abogados en CABA y Provincia de Buenos Aires">
+<meta name="twitter:description" content="Estudio Jurídico Galíndez: derecho laboral, civil y familia, societario y penal. Atención personal y reservada en Av. Corrientes 1441, CABA, y Provincia de Buenos Aires.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@600;700&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="./styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Estudio Jurídico Galíndez",
+  "image": "img/logo.png",
+  "telephone": "+54 11 4054-1945",
+  "email": "drdariogalindez@hotmail.com",
+  "address": {"@type": "PostalAddress", "streetAddress": "Av. Corrientes 1441", "addressLocality": "Ciudad Autónoma de Buenos Aires", "addressRegion": "CABA", "addressCountry": "AR"},
+  "areaServed": ["Ciudad Autónoma de Buenos Aires", "Provincia de Buenos Aires"],
+  "founder": {"@type": "Person", "name": "Darío Galíndez", "jobTitle": "Abogado"},
+  "knowsAbout": ["Derecho laboral", "Accidentes de trabajo y ART", "Despidos", "Derecho civil", "Derecho de familia", "Sucesiones", "Derecho societario", "Derecho penal"]
+}
+</script>
+</head>
+<body>
+<!-- splash de entrada (solo mobile): el sello con el anillo girando; se va solo por CSS aunque falle el JS -->
+<div class="splash" id="splash" aria-hidden="true">
+  <div class="splash-sello">
+    <img class="splash-anillo" src="./img/anillo-amarillo.png" alt="" width="1200" height="1201">
+    <img class="splash-mono" src="./img/monograma-amarillo.png" alt="" width="968" height="698">
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<!-- transparente sobre el hero, amarillo al scrollear; logo completo al centro -->
+<header class="hdr" id="hdr">
+  <nav class="nav nav-l" aria-label="Páginas">
+    <a href="./el-estudio.html">El estudio</a>
+    <div class="dd">
+      <button class="dd-btn" type="button" aria-expanded="false" aria-haspopup="true">Áreas <i class="ti ti-chevron-down" aria-hidden="true"></i></button>
+      <div class="dd-menu"><div><a href="./derecho-laboral.html">Derecho Laboral</a><a href="./derecho-civil-familia.html">Civil y Familia</a><a href="./derecho-societario.html">Derecho Societario</a><a href="./derecho-penal.html">Derecho Penal</a></div></div>
+    </div>
+  </nav>
+  <a href="#inicio" class="hdr-logo" aria-label="Estudio Jurídico Galíndez, inicio">
+    <span class="sello-h sl-a"><img class="sl-anillo" src="./img/anillo-amarillo.png" alt="" width="1200" height="1201"><img class="sl-mono" src="./img/monograma-amarillo.png" alt="" width="968" height="698"></span>
+    <span class="sello-h sl-n"><img class="sl-anillo" src="./img/anillo-negro.png" alt="" width="1200" height="1201"><img class="sl-mono" src="./img/monograma.png" alt="" width="968" height="698"></span>
+  </a>
+  <nav class="nav nav-r" aria-label="Consultas">
+    <a href="./preguntas-frecuentes.html">Preguntas</a>
+    <a href="#contacto">Contacto</a>
+    <a class="btn btn-dark btn-sm js-wa" href="#" data-msg="Hola, quisiera hacer una consulta.">Consultar</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-controls="mnav" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="mnav-ov" id="mnavOv"></div>
+<nav class="mnav" id="mnav" aria-label="Menú">
+  <span class="mnav-logo"><span class="sello-h sl-n"><img class="sl-anillo" src="./img/anillo-negro.png" alt="" width="1200" height="1201"><img class="sl-mono" src="./img/monograma.png" alt="" width="968" height="698"></span></span>
+  <div class="mnav-list">
+    <a href="./el-estudio.html">El estudio <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    <details class="mnav-dd"><summary>Áreas de práctica <i class="ti ti-plus" aria-hidden="true"></i></summary>
+      <div class="mnav-sub"><a href="./derecho-laboral.html">Derecho Laboral</a><a href="./derecho-civil-familia.html">Civil y Familia</a><a href="./derecho-societario.html">Derecho Societario</a><a href="./derecho-penal.html">Derecho Penal</a></div>
+    </details>
+    <a href="./preguntas-frecuentes.html">Preguntas frecuentes <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    <a href="#contacto">Contacto <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  <a class="btn btn-dark js-wa" href="#" data-msg="Hola, quisiera hacer una consulta.">Consultar por WhatsApp</a>
+</nav>
+
+<main>
+
+<!-- ============ HERO: el sello del logo, con el anillo girando y el monograma quieto ============ -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <!-- chiches dorados: hexágonos del isotipo y puntos de luz -->
+  <div class="hero-deco" data-overflow-ok><svg class="hero-chiches" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="#FDD74B" stroke-width="1"><polygon class="hx f1" points="1250.0,116.0 1279.4,133.0 1279.4,167.0 1250.0,184.0 1220.6,167.0 1220.6,133.0" opacity="0.5"/><polygon class="hx f2" points="1370.0,738.0 1389.1,749.0 1389.1,771.0 1370.0,782.0 1350.9,771.0 1350.9,749.0" opacity="0.4"/><polygon class="hx f3" points="40.0,600.0 74.6,620.0 74.6,660.0 40.0,680.0 5.4,660.0 5.4,620.0" opacity="0.3"/></g><g fill="#FDD74B"><circle class="pt t1" cx="520" cy="260" r="1.2"/><circle class="pt t0" cx="1010" cy="220" r="1.8"/><circle class="pt t0" cx="210" cy="760" r="1.4"/><circle class="pt t2" cx="880" cy="640" r="1.5"/></g></svg></div>
+  <div class="wrap hero-in">
+    <div class="hero-txt">
+      <p class="eyebrow rise">Estudio Jurídico Galíndez</p>
+      <h1 class="hero-h1 rise d1">Defensa y asesoramiento <em>con firmeza y reserva.</em></h1>
+      <p class="hero-lead rise d2">Abogados para particulares, empresas y emprendimientos, con trato directo y una estrategia clara para cada caso.</p>
+      <div class="hero-ctas rise d3">
+        <a class="btn btn-dark js-wa" href="#" data-msg="Hola, quisiera hacer una consulta.">Consultar por WhatsApp</a>
+        <a class="btn btn-line" href="#contacto">Completar el formulario</a>
+      </div>
+    </div>
+    <div class="aro rise d2">
+      <img class="aro-giro" src="./img/anillo-amarillo.png" alt="" width="1200" height="1201" aria-hidden="true">
+      <img class="aro-mono" src="./img/monograma-amarillo.png" alt="" width="968" height="698" aria-hidden="true">
+    </div>
+  </div>
+</section>
+
+<!-- ============ PILARES ============ -->
+<section class="pilares" aria-label="Cómo trabaja el estudio">
+  <div class="wrap pilares-in">
+    <div class="pilar"><i class="ti ti-map-2" aria-hidden="true"></i><div><b>CABA y PBA</b><span>Ciudad y Provincia de Buenos Aires</span></div></div>
+    <div class="pilar"><i class="ti ti-lock" aria-hidden="true"></i><div><b>Absoluta reserva</b><span>Confidencialidad profesional</span></div></div>
+    <div class="pilar"><i class="ti ti-calendar" aria-hidden="true"></i><div><b>Cita previa</b><span>Av. Corrientes 1441, CABA</span></div></div>
+  </div>
+</section>
+
+<!-- ============ ÁREAS ============ -->
+<section class="sec sec-foto sec-areas" id="areas">
+  <div class="foto-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Áreas de práctica</p>
+      <h2 class="h2">Cuatro áreas, <em>un mismo criterio.</em></h2>
+    </div>
+    <div class="areas">
+      <article class="area reveal">
+        <span class="area-n">01</span>
+        <h3>Derecho Laboral</h3>
+        <p>Asistencia a trabajadores frente a accidentes, enfermedades laborales y la ruptura del vínculo de trabajo.</p>
+        <ul class="det"><li><b>Accidentes de trabajo y ART</b><span>Seguimiento del trámite y reclamo de prestaciones.</span></li><li><b>Indemnizaciones por despido</b><span>Liquidaciones, telegramas y diferencias salariales.</span></li></ul>
+        <a class="link-arrow" href="derecho-laboral.html">Conocer el área <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="area reveal">
+        <span class="area-n">02</span>
+        <h3>Civil y Familia</h3>
+        <p>Conflictos patrimoniales, accidentes y asuntos familiares sensibles, con un acompañamiento claro y reservado.</p>
+        <ul><li>Accidentes de tránsito</li><li>Sucesiones</li><li>Divorcios y alimentos</li><li>Cuidado y comunicación</li></ul>
+        <a class="link-arrow" href="derecho-civil-familia.html">Conocer el área <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="area reveal">
+        <span class="area-n">03</span>
+        <h3>Derecho Societario</h3>
+        <p>Estructuras jurídicas sólidas y asesoramiento preventivo para empresas, profesionales y nuevos emprendimientos.</p>
+        <ul class="det"><li><b>Constitución de S.A. y S.R.L.</b><span>Planificación y constitución de la sociedad.</span></li><li><b>Asesoramiento empresarial</b><span>Contratos, decisiones societarias y prevención.</span></li></ul>
+        <a class="link-arrow" href="derecho-societario.html">Conocer el área <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="area reveal">
+        <span class="area-n">04</span>
+        <h3>Derecho Penal</h3>
+        <p>Defensa técnica inmediata, evaluación estratégica del expediente y acompañamiento durante todo el proceso.</p>
+        <ul><li>Defensas penales</li><li>Excarcelaciones</li><li>Acuerdos y alternativas</li><li>Ejecución de la pena</li></ul>
+        <a class="link-arrow" href="derecho-penal.html">Conocer el área <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EL ESTUDIO: tríptico editorial (título monumental, retrato al centro con remate de hexágono) ============ -->
+<section class="sec sec-3 estudio" id="estudio">
+  <div class="wrap">
+    <div class="estudio-head reveal">
+      <p class="eyebrow">El estudio</p>
+      <h2 class="estudio-h2">Criterio jurídico, dedicación <em>y trato directo.</em></h2>
+      <p class="lead">Cada asunto lo dirige personalmente el titular, con análisis riguroso y comunicación clara.</p>
+    </div>
+    <div class="triptico">
+      <div class="tri-col tri-izq reveal">
+        <ol class="tri-pasos">
+          <li><span>01</span><div><b>Evaluación</b><p>Alternativas, tiempos y riesgos de cada caso.</p></div></li>
+          <li><span>02</span><div><b>Estrategia</b><p>Un plan claro y comprensible.</p></div></li>
+          <li><span>03</span><div><b>Acompañamiento</b><p>Desde la primera consulta hasta la resolución.</p></div></li>
+        </ol>
+      </div>
+      <figure class="tri-foto reveal">
+        <div class="vitral">
+          <div class="vitral-marco" aria-hidden="true"></div>
+          <div class="vitral-img">
+            <!-- foto tomada de la web actual: confirmar con el cliente que sea un retrato real -->
+            <img src="./img/dr-dario-galindez.jpg" alt="Retrato del Dr. Darío Galíndez" width="928" height="1152" loading="lazy">
+          </div>
+        </div>
+        <figcaption><b>Dr. Darío Galíndez</b><span>Titular del estudio</span></figcaption>
+      </figure>
+      <div class="tri-col tri-der reveal">
+        <span class="comilla" aria-hidden="true">“</span>
+        <blockquote>La estrategia comienza por escuchar con atención y comprender qué necesita proteger cada persona.</blockquote>
+        <a class="btn btn-accent" href="el-estudio.html">Conocer al Dr. Galíndez <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PREGUNTAS FRECUENTES ============ -->
+<section class="sec" id="faq">
+  <div class="wrap faq-grid">
+    <div class="faq-head reveal">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2 class="h2">Antes de <em>consultar.</em></h2>
+      <p class="lead">Lo que más nos preguntan al momento de dar el primer paso.</p>
+      <div class="faq-card">
+        <h3>¿Tenés otra duda?</h3>
+        <p>Escribinos y te respondemos personalmente.</p>
+        <div class="faq-card-btns">
+          <a class="btn btn-dark js-wa" href="#" data-msg="Hola, tengo una consulta.">Consultar por WhatsApp</a>
+          <a class="btn btn-accent" href="#contacto">Enviar un email</a>
+        </div>
+      </div>
+    </div>
+    <div class="faq reveal">
+      <details><summary>¿Cómo coordino una consulta?</summary><div class="faq-a"><p>Por WhatsApp, por teléfono al 011 4054-1945, por email o completando el formulario. La atención en el estudio es con cita previa, así que coordinamos día y horario antes del encuentro.</p></div></details>
+      <details><summary>Tuve un accidente de trabajo, ¿pueden ayudarme con la ART?</summary><div class="faq-a"><p>Sí. Analizamos el accidente o la enfermedad profesional, hacemos el seguimiento del trámite y reclamamos las prestaciones e indemnizaciones que correspondan.</p></div></details>
+      <details><summary>¿Qué conviene contar en el primer mensaje?</summary><div class="faq-a"><p>Una descripción breve de lo que pasó y en qué etapa está tu caso. No hace falta incluir información sensible: los detalles se analizan después, en la consulta.</p></div></details>
+      <details><summary>Detuvieron a un familiar, ¿desde cuándo pueden intervenir?</summary><div class="faq-a"><p>La defensa puede asumirse desde las primeras actuaciones: diseño de la estrategia, pedidos de excarcelación y representación durante todo el proceso penal.</p></div></details>
+      <a class="btn btn-accent faq-mas" href="./preguntas-frecuentes.html">Ver todas las preguntas <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="sec sec-foto sec-contacto" id="contacto">
+  <div class="foto-bg" aria-hidden="true"></div>
+  <div class="wrap contacto-grid">
+    <div class="contacto-info reveal">
+      <p class="eyebrow">Contacto</p>
+      <h2 class="h2">Contanos tu <em>situación.</em></h2>
+      <p class="lead">Escribinos por el medio que prefieras y coordinamos día y horario del encuentro.</p>
+      <ul class="datos">
+        <li><span class="ic"><i class="ti ti-brand-whatsapp" aria-hidden="true"></i></span><div><small>WhatsApp</small><a class="js-wa" href="#" data-msg="Hola, quisiera hacer una consulta.">11 4054-1945</a></div></li>
+        <li><span class="ic"><i class="ti ti-phone" aria-hidden="true"></i></span><div><small>Teléfono</small><a href="tel:+541140541945">011 4054-1945</a></div></li>
+        <li><span class="ic"><i class="ti ti-mail" aria-hidden="true"></i></span><div><small>Email</small><a href="mailto:drdariogalindez@hotmail.com">drdariogalindez@hotmail.com</a></div></li>
+        <li><span class="ic"><i class="ti ti-map-pin" aria-hidden="true"></i></span><div><small>Estudio</small><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Corrientes%201441%2C%20CABA" target="_blank" rel="noopener">Av. Corrientes 1441, CABA</a></div></li>
+      </ul>
+    </div>
+    <div class="form-card reveal">
+      <h3>Enviá tu consulta</h3>
+      <p>Tu consulta es confidencial. Evitá incluir datos sensibles innecesarios.</p>
+      <iframe name="formsubmit-iframe" id="formsubmit-iframe" title="Envío del formulario" style="display:none"></iframe>
+      <form id="contactForm" action="https://formsubmit.co/drdariogalindez@hotmail.com" method="POST" target="formsubmit-iframe" novalidate>
+        <input type="hidden" name="_subject" value="Nueva consulta desde la web">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="about:blank">
+        <input type="hidden" name="_template" value="table">
+        <div class="hp" aria-hidden="true"><input type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
+        <div class="f-row">
+          <div class="field"><label for="fNombre">Nombre y apellido</label><input id="fNombre" name="nombre" type="text" autocomplete="name" required><span class="msg">Ingresá tu nombre.</span></div>
+          <div class="field"><label for="fTel">Teléfono celular</label><input id="fTel" name="telefono" type="tel" autocomplete="tel" placeholder="11 1234 5678" required><span class="msg">Ingresá un teléfono.</span></div>
+        </div>
+        <div class="field"><label for="fEmail">Email <span class="opt">(para enviar por email)</span></label><input id="fEmail" name="email" type="email" autocomplete="email"><span class="msg">Ingresá un email válido.</span></div>
+        <div class="field"><label for="fArea">Tu consulta es sobre</label>
+          <select id="fArea" name="area" required><option value="">Elegí un área</option><option>Derecho Laboral</option><option>Civil y Familia</option><option>Derecho Societario</option><option>Derecho Penal</option><option>Otra consulta</option></select>
+          <span class="msg">Elegí un área.</span>
+        </div>
+        <div class="field"><label for="fMsg">Contanos brevemente tu caso</label><textarea id="fMsg" name="mensaje" required></textarea><span class="msg">Contanos brevemente tu situación.</span></div>
+        <div class="f-btns">
+          <button type="submit" class="btn btn-dark" id="formSubmitBtn">Enviar por email</button>
+          <button type="button" class="btn btn-accent" id="formWaBtn">Enviar por WhatsApp</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAPA (full bleed, sección propia) ============ -->
+<section class="mapa-sec" aria-label="Ubicación del estudio">
+  <iframe class="mapa" title="Ubicación del estudio en Av. Corrientes 1441, CABA" src="https://www.google.com/maps?q=Av.%20Corrientes%201441%2C%20CABA&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ftr" id="ftr">
+  <div class="ftr-in">
+    <div class="ftr-brand">
+      <a class="ftr-logo" href="#inicio" aria-label="Estudio Jurídico Galíndez, volver al inicio"><span class="sello-h sl-a"><img class="sl-anillo" src="./img/anillo-amarillo.png" alt="" width="1200" height="1201"><img class="sl-mono" src="./img/monograma-amarillo.png" alt="" width="968" height="698"></span></a>
+      <p>Asesoramiento jurídico personal, estratégico y reservado en CABA y Provincia de Buenos Aires.</p>
+    </div>
+    <div class="ftr-col"><h4>Secciones</h4><ul><li><a href="#inicio">Inicio</a></li><li><a href="./el-estudio.html">El estudio</a></li><li><a href="./preguntas-frecuentes.html">Preguntas frecuentes</a></li><li><a href="#contacto">Contacto</a></li></ul></div>
+    <div class="ftr-col"><h4>Áreas</h4><ul><li><a href="derecho-laboral.html">Derecho Laboral</a></li><li><a href="derecho-civil-familia.html">Civil y Familia</a></li><li><a href="derecho-societario.html">Derecho Societario</a></li><li><a href="derecho-penal.html">Derecho Penal</a></li></ul></div>
+    <div class="ftr-col"><h4>Contacto</h4>
+      <ul class="ftr-data">
+        <li><i class="ti ti-brand-whatsapp" aria-hidden="true"></i><a class="js-wa" href="#" data-msg="Hola, quisiera hacer una consulta.">11 4054-1945</a></li>
+        <li><i class="ti ti-mail" aria-hidden="true"></i><a href="mailto:drdariogalindez@hotmail.com">drdariogalindez@hotmail.com</a></li>
+        <li><i class="ti ti-map-pin" aria-hidden="true"></i><span>Av. Corrientes 1441, CABA</span></li>
+        <li><i class="ti ti-calendar" aria-hidden="true"></i><span>Atención con cita previa</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ftr-bottom">
+    <p>© <span id="yr">2026</span> Estudio Jurídico Galíndez. Todos los derechos reservados.</p>
+    <p><a href="./privacidad.html">Política de privacidad</a></p>
+    <p>Desarrollado por <a href="https://www.instagram.com/sageedev/" target="_blank" rel="noopener">@sageeDev</a></p>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" id="waFloat" href="#" data-msg="Hola, quisiera hacer una consulta." aria-label="Escribir por WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+
+<div class="modal" id="okModal" role="dialog" aria-modal="true" aria-labelledby="okTitle">
+  <div class="modal-card">
+    <i class="ti ti-circle-check" aria-hidden="true"></i>
+    <h3 id="okTitle">Consulta enviada</h3>
+    <p>Gracias por escribir. El estudio te responde a la brevedad.</p>
+    <button type="button" class="btn btn-dark" data-close>Cerrar</button>
+  </div>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
